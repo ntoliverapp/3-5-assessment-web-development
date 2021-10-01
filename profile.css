@@ -1,0 +1,50 @@
+body{
+
+}
+p{
+    color: black;
+}
+header{
+    background-color: green;
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+    "logo navbar";
+    box-shadow:0 2px 4px lightgray;
+    align-items: center;
+}
+
+#logo{
+   grid-area: logo; 
+   justify-self: left;
+   margin-left: 15px;
+}
+
+#navbar{
+    grid-area: navbar; 
+    justify-self: right;
+    display: grid;
+    grid-template-areas:
+    "me skills goals";
+    grid-gap: 15px;
+    margin-right: 15px;
+}
+#me{
+    grid-area: me;
+}
+#skills{
+    grid-area: skills;
+}
+#goals{
+    grid-area: goals;
+}
+main{
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle, rgb(54, 66, 29) 1px, rgba(0, 0, 0, 0) 1px);
+    height: 20vh;
+}
+#pics{
+    display: grid;
+}
+
