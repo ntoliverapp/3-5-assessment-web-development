@@ -1,0 +1,4 @@
+** How does the internet work? What happens when you click on a link? **
+The internet is a network of computers that communicates data between clients and servers. The internet operates through routing networks that follow Internet Protocol(public is http and private is https). Data is sent in tiny pieces called packets.
+
+Clients are connected to routers which allow access to other networks and servers across other devices. The modem is connected to the ISP, which connects the internet globally. When a user types in a URL (using domain name), the query request travels to the cache, ISP, the root, then the server in order to receive a response. If the server is able to approve the request, it sends a 200 ok back to the client, and the browser is able to display information/content for the user. 

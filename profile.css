@@ -44,7 +44,7 @@ main{
     background-image: radial-gradient(circle, rgb(54, 66, 29) 1px, rgba(0, 0, 0, 0) 1px);
     height: 20vh;
 }
-#pics{
-    display: grid;
+img {
+    max-width: 300px;
 }
 
